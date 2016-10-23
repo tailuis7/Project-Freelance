@@ -1,0 +1,93 @@
+/* Project's Hover */
+
+.box-title {
+    a {
+        position: absolute;
+        display: block;
+        height: 200px;
+        width: 200px;
+        color: #ff5c14;
+        font-size: 16px;
+        text-transform: capitalize;
+        border: 2px solid #ff5c14;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: background-color .4s;
+        -moz-transition: background-color .4s;
+        -o-transition: background-color .4s;
+        transition: background-color .4s;
+        &:hover {
+            background: rgba(246, 246, 242, 0.85);
+            text-decoration: none;
+        }
+        .box-text-normal {
+            position: absolute;
+            bottom: 10px;
+            left: 20px;
+        }
+        .box-text-rotate {
+            position: absolute;
+            bottom: 120px;
+            left: -20px;
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+        }
+    }
+}
+
+.project-1,
+.project-2,
+.project-3,
+.project-4,
+.project-5,
+.project-6 {
+    padding: 0;
+    &:hover {
+        z-index: 100 !important;
+    }
+    a {
+        &:hover .project_image_overlay {
+            opacity: 0.65;
+        }
+        .project_image_overlay {
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #000000;
+            opacity: 0;
+            -webkit-transition: background-color .4s;
+            -moz-transition: background-color .4s;
+            -o-transition: background-color .4s;
+            transition: background-color .4s;
+            -webkit-transition: opacity .4s;
+            -moz-transition: opacity .4s;
+            -o-transition: opacity .4s;
+            transition: opacity .4s;
+        }
+        .project-caption {
+            position: absolute;
+            -webkit-transform: translate3D(0px, 0px, 0px);
+            -moz-transform: translate3D(0px, 0px, 0px);
+            -o-transform: translate3D(0px, 0px, 0px);
+            transform: translate3D(0px, 0px, 0px);
+            .project-caption-rotate {
+                padding-left: 20px;
+                color: #ffffff;
+                font-size: 14px;
+                background-image: url(../img/white-spot.png);
+                background-repeat: no-repeat;
+                -webkit-transform: rotate(90deg);
+                -moz-transform: rotate(90deg);
+                -ms-transform: rotate(90deg);
+                -o-transform: rotate(90deg);
+            }
+        }
+    }
+}

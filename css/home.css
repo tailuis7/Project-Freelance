@@ -1,0 +1,342 @@
+/* BASE - Base styles, variables, mixins, normalize */
+/* Font Colors */
+/* Background Colors */
+/* Website's Width */
+/* ==========================================================================
+   Normalize CSS
+   ========================================================================== */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+html,
+body {
+  /*     overflow-x: hidden; */
+}
+
+body {
+  font-size: 15px;
+  background: #fdfdfd;
+  font-family: "Open Sans", Tahoma, Arial, Sans-Serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #f6f6f2 url(../_img/page-bg-full-size.png) repeat 20px 40px;
+  background-image: url("../img/page-bg-full-size.png");
+  background-position: center top;
+}
+
+form {
+  margin: 0;
+}
+
+a {
+  color: #333;
+  cursor: pointer;
+}
+
+a,
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #0076a1;
+}
+
+input,
+input:focus {
+  outline: none;
+}
+
+#container .container {
+  max-width: 960px;
+  height: auto;
+}
+#container .container #remove-top-dots {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 2px;
+  background: #f6f6f2;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* MODULES - Individual site components */
+/* Main Content */
+.main-content .project-container-1 .box-title a {
+  z-index: 20;
+  left: 160px;
+  top: 280px;
+}
+.main-content .project-container-1 .project-1 {
+  z-index: 10;
+}
+.main-content .project-container-1 .project-1 a .project_image_overlay {
+  max-width: 360px;
+}
+.main-content .project-container-1 .project-1 a .project-caption {
+  top: 12%;
+  right: 5px;
+}
+.main-content .project-container-2 .project-2 {
+  z-index: 30;
+}
+.main-content .project-container-2 .project-2 a {
+  position: absolute;
+  top: -165px;
+}
+.main-content .project-container-2 .project-2 a .project_image_overlay {
+  max-width: 360px;
+}
+.main-content .project-container-2 .project-2 a .project-caption {
+  top: 23%;
+  right: -65px;
+}
+.main-content .project-container-3 .box-title a {
+  z-index: 40;
+  left: 0;
+  top: 155px;
+}
+.main-content .project-container-3 .project-3 {
+  z-index: 25;
+}
+.main-content .project-container-3 .project-3 a {
+  position: absolute;
+  top: 120px;
+}
+.main-content .project-container-3 .project-3 a .project-caption {
+  top: 13%;
+  right: -35px;
+}
+.main-content .project-container-4 .project-4 {
+  z-index: 50;
+}
+.main-content .project-container-4 .project-4 a {
+  position: absolute;
+  top: 420px;
+  left: 0;
+}
+.main-content .project-container-4 .project-4 a .project-caption {
+  top: 42%;
+  right: -120px;
+}
+.main-content .project-container-4 .project-5 {
+  z-index: 23;
+}
+.main-content .project-container-4 .project-5 a {
+  position: absolute;
+  top: 420px;
+  left: 0;
+}
+.main-content .project-container-4 .project-5 a .project-caption {
+  top: 10%;
+  right: -35px;
+}
+.main-content .project-container-5 .project-6 {
+  z-index: 60;
+}
+.main-content .project-container-5 .project-6 a {
+  position: absolute;
+  top: 790px;
+  right: 200px;
+}
+.main-content .project-container-5 .project-6 a .project-caption {
+  top: 20%;
+  right: -55px;
+}
+.main-content .project-container-5 .box-title a {
+  z-index: 65;
+  right: 320px;
+  top: 810px;
+}
+.main-content .project-container-6 .box-title a {
+  z-index: 65;
+  right: 25px;
+  top: 1055px;
+}
+.main-content .project-container-6 .contact {
+  color: #a5a5a5;
+  position: absolute;
+  right: 25px;
+  top: 1180px;
+}
+
+/* Project's Hover */
+.box-title a {
+  position: absolute;
+  display: block;
+  height: 200px;
+  width: 200px;
+  color: #ff5c14;
+  font-size: 16px;
+  text-transform: capitalize;
+  border: 2px solid #ff5c14;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: background-color .4s;
+  -moz-transition: background-color .4s;
+  -o-transition: background-color .4s;
+  transition: background-color .4s;
+}
+.box-title a:hover {
+  background: rgba(246, 246, 242, 0.85);
+  text-decoration: none;
+}
+.box-title a .box-text-normal {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+.box-title a .box-text-rotate {
+  position: absolute;
+  bottom: 120px;
+  left: -20px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+
+.project-1,
+.project-2,
+.project-3,
+.project-4,
+.project-5,
+.project-6 {
+  padding: 0;
+}
+.project-1:hover,
+.project-2:hover,
+.project-3:hover,
+.project-4:hover,
+.project-5:hover,
+.project-6:hover {
+  z-index: 100 !important;
+}
+.project-1 a:hover .project_image_overlay,
+.project-2 a:hover .project_image_overlay,
+.project-3 a:hover .project_image_overlay,
+.project-4 a:hover .project_image_overlay,
+.project-5 a:hover .project_image_overlay,
+.project-6 a:hover .project_image_overlay {
+  opacity: 0.65;
+}
+.project-1 a .project_image_overlay,
+.project-2 a .project_image_overlay,
+.project-3 a .project_image_overlay,
+.project-4 a .project_image_overlay,
+.project-5 a .project_image_overlay,
+.project-6 a .project_image_overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000000;
+  opacity: 0;
+  -webkit-transition: background-color .4s;
+  -moz-transition: background-color .4s;
+  -o-transition: background-color .4s;
+  transition: background-color .4s;
+  -webkit-transition: opacity .4s;
+  -moz-transition: opacity .4s;
+  -o-transition: opacity .4s;
+  transition: opacity .4s;
+}
+.project-1 a .project-caption,
+.project-2 a .project-caption,
+.project-3 a .project-caption,
+.project-4 a .project-caption,
+.project-5 a .project-caption,
+.project-6 a .project-caption {
+  position: absolute;
+  -webkit-transform: translate3D(0px, 0px, 0px);
+  -moz-transform: translate3D(0px, 0px, 0px);
+  -o-transform: translate3D(0px, 0px, 0px);
+  transform: translate3D(0px, 0px, 0px);
+}
+.project-1 a .project-caption .project-caption-rotate,
+.project-2 a .project-caption .project-caption-rotate,
+.project-3 a .project-caption .project-caption-rotate,
+.project-4 a .project-caption .project-caption-rotate,
+.project-5 a .project-caption .project-caption-rotate,
+.project-6 a .project-caption .project-caption-rotate {
+  padding-left: 20px;
+  color: #ffffff;
+  font-size: 14px;
+  background-image: url(../img/white-spot.png);
+  background-repeat: no-repeat;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+
+/* LAYOUTS - Page layout styles*/
+/* Header */
+#banner_backing {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: 100px;
+  background: #fefffa;
+  opacity: 0;
+}
+
+#banner_container header {
+  top: 0;
+  z-index: 2000;
+  height: 120px;
+  min-height: 0;
+}
+#banner_container header .navbar-default {
+  background: none;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  z-index: 2000;
+}
+#banner_container header .navbar-default .logo {
+  float: left;
+}
+#banner_container header .navbar-default .logo img {
+  max-width: 260px;
+  max-height: 60px;
+}
+#banner_container header .navbar-default .nav-list li a {
+  color: #a5a5a5;
+  text-transform: capitalize;
+}
+#banner_container header .navbar-default .nav-list li a:hover {
+  text-decoration: underline;
+}
+
+/* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+/* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+
+/*# sourceMappingURL=home.css.map */

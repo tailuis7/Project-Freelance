@@ -1,0 +1,123 @@
+/* Main Content */
+
+.main-content {
+    .project-container-1 {
+        .box-title {
+            a {
+                z-index: 20;
+                left: 160px;
+                top: 280px;
+            }
+        }
+        .project-1 {
+            z-index: 10;
+            a {
+                .project_image_overlay {
+                    max-width: 360px;
+                }
+                .project-caption {
+                    top: 12%;
+                    right: 5px;
+                }
+            }
+        }
+    }
+    .project-container-2 {
+        .project-2 {
+            z-index: 30;
+            a {
+                position: absolute;
+                top: -165px;
+                .project_image_overlay {
+                    max-width: 360px;
+                }
+                .project-caption {
+                    top: 23%;
+                    right: -65px;
+                }
+            }
+        }
+    }
+    .project-container-3 {
+        .box-title {
+            a {
+                z-index: 40;
+                left: 0;
+                top: 155px;
+            }
+        }
+        .project-3 {
+            z-index: 25;
+            a {
+                position: absolute;
+                top: 120px;
+                .project-caption {
+                    top: 13%;
+                    right: -35px;
+                }
+            }
+        }
+    }
+    .project-container-4 {
+        .project-4 {
+            z-index: 50;
+            a {
+                position: absolute;
+                top: 420px;
+                left: 0;
+                .project-caption {
+                    top: 42%;
+                    right: -120px;
+                }
+            }
+        }
+        .project-5 {
+            z-index: 23;
+            a {
+                position: absolute;
+                top: 420px;
+                left: 0;
+                .project-caption {
+                    top: 10%;
+                    right: -35px;
+                }
+            }
+        }
+    }
+    .project-container-5 {
+        .project-6 {
+            z-index: 60;
+            a {
+                position: absolute;
+                top: 790px;
+                right: 200px;
+                .project-caption {
+                    top: 20%;
+                    right: -55px;
+                }
+            }
+        }
+        .box-title {
+            a {
+                z-index: 65;
+                right: 320px;
+                top: 810px;
+            }
+        }
+    }
+    .project-container-6 {
+        .box-title {
+            a {
+                z-index: 65;
+                right: 25px;
+                top: 1055px;
+            }
+        }
+        .contact {
+        	color: #a5a5a5;
+        	position: absolute;
+            right: 25px;
+            top: 1180px;
+        }
+    }
+}

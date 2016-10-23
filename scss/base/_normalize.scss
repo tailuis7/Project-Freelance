@@ -1,0 +1,72 @@
+/* ==========================================================================
+   Normalize CSS
+   ========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+
+html,
+body {
+/*     overflow-x: hidden; */
+}
+
+body {
+    font-size: $base-font-size;
+    background: #fdfdfd;
+    font-family: "Open Sans", Tahoma, Arial, Sans-Serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #f6f6f2 url(../_img/page-bg-full-size.png) repeat 20px 40px;
+    background-image: url('../img/page-bg-full-size.png');
+    background-position: center top;
+}
+
+form {
+    margin: 0
+}
+
+a {
+    color: #333;
+    cursor: pointer
+}
+
+a,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0076a1;
+}
+
+input,
+input:focus {
+    outline: none
+}
+
+#container {
+    .container {
+        max-width: $base-site-width;
+        height: auto;
+        #remove-top-dots {
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            height: 2px;
+            background: #f6f6f2;
+        }
+    }
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+    font-family: 'Open Sans', sans-serif;
+}
