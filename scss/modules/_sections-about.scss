@@ -1,0 +1,44 @@
+/* Main Content - About */
+
+.main-content {
+    margin-top: 75px;
+    .top {
+        margin-bottom: 45px;
+    }
+    .img-container {
+        img {
+            width: 100%;
+        }
+    }
+    .title-container {
+        .intro {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+    }
+    .middle {
+        margin-bottom: 30px;
+    }
+    .bottom {
+        .team {
+        	margin-bottom: 45px;
+            img {
+            	width: 100%;
+            }
+            .team-name {
+                margin-bottom: 0;
+            }
+            .team-description {
+                font-size: 22px;
+                color: #ff5910;
+                margin-bottom: 15px;
+            }
+            .team-intro {
+                font-size: 13px;
+                color: #414141;
+                line-height: 1.4;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

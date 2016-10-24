@@ -1,0 +1,16 @@
+/* BASE - Base styles, variables, mixins, normalize */
+
+@import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+@import 'base/_normalize.scss';
+@import 'base/_base.scss';
+
+/* MODULES - Individual site components */
+
+@import 'modules/_sections-about.scss';
+@import 'modules/_typography-about.scss';
+@import 'modules/_components.scss';
+
+/* LAYOUTS - Page layout styles*/
+
+@import 'layouts/_mobile-about.scss';

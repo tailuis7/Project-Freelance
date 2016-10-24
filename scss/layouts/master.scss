@@ -23,7 +23,8 @@ header {
                 max-height: 60px;
             }
         }
-        .nav-list {
+        .nav-list,
+        .social-list {
             li {
                 a {
                     color: #a5a5a5;
@@ -31,6 +32,16 @@ header {
                     &:hover {
                         color: #a5a5a5;
                         text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .social-list {
+            li {
+                a {
+                    color: #ff5910;
+                    &:hover {
+                        color: #ff5910;
                     }
                 }
             }

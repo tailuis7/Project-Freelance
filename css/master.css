@@ -22,13 +22,21 @@ header .navbar-default .logo img {
   max-width: 260px;
   max-height: 60px;
 }
-header .navbar-default .nav-list li a {
+header .navbar-default .nav-list li a,
+header .navbar-default .social-list li a {
   color: #a5a5a5;
   text-transform: capitalize;
 }
-header .navbar-default .nav-list li a:hover {
+header .navbar-default .nav-list li a:hover,
+header .navbar-default .social-list li a:hover {
   color: #a5a5a5;
   text-decoration: underline;
+}
+header .navbar-default .social-list li a {
+  color: #ff5910;
+}
+header .navbar-default .social-list li a:hover {
+  color: #ff5910;
 }
 
 /* Footer */
