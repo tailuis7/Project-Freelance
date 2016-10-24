@@ -1,0 +1,73 @@
+/* Main Content - Contact */
+
+.main-content {
+    margin-top: 75px;
+    .maps {
+        margin-bottom: 30px;
+        iframe {
+            border: 0;
+            width: 100%;
+            height: 450px;
+        }
+    }
+    .contact-details {
+        background: #f6f6f2;
+        margin-bottom: 45px;
+    }
+    .contact-info {
+        font-size: 17px;
+        color: #414141;
+        .title {
+            color: #ff5910;
+            font-size: 17px;
+            margin-top: 10px;
+        }
+        .phone-number {
+            margin-bottom: 0;
+        }
+        .email-address a {
+            text-decoration: underline;
+            &:hover {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    }
+    .contact-form {
+        .control-label {
+            color: #ff5910;
+            font-size: 17px;
+            font-weight: normal;
+            text-align: left;
+        }
+        .form-control {
+            border: 0;
+            border-radius: 0;
+            background: #e8e8e4;
+            box-shadow: none;
+            &:focus {
+                background: #efefeb;
+                color: #000000;
+            }
+        }
+        .btn-send {
+            width: 100px;
+            height: 40px;
+            color: #f6f6f2;
+            font-size: 17px;
+            font-weight: normal;
+            text-shadow: none;
+            background: #333333;
+            border-radius: 0;
+            box-shadow: none;
+            -webkit-transition: background-color .2s;
+            -moz-transition: background-color .2s;
+            -o-transition: background-color .2s;
+            transition: background-color .2s;
+            &:hover {
+                background: #555555;
+                color: #ffffff;
+            }
+        }
+    }
+}
