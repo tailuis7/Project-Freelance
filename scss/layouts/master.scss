@@ -76,3 +76,54 @@ footer {
         margin-top: 100px;
     }
 }
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+
+@media only screen and (min-width: 960px) and (max-width: 1240px) {}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* Fix background - Header */
+    header .navbar-default {
+        background-color: #ffffff;
+        text-align: center;
+    }
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+    /* Fix background - Header */
+    header .navbar-default {
+        background-color: #ffffff;
+        text-align: center;
+    }
+    /* Fix float - Footer */
+    footer .contact-details {
+        float: none;
+        margin: auto;
+    }
+    footer .footer-legals {
+        float: none;
+        margin: 10px;
+        margin-top: 0;
+        text-align: center;
+    }
+}
