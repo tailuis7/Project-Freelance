@@ -27,6 +27,7 @@ header .navbar-default .nav-list li a {
   text-transform: capitalize;
 }
 header .navbar-default .nav-list li a:hover {
+  color: #a5a5a5;
   text-decoration: underline;
 }
 
