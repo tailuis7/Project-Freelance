@@ -1,6 +1,7 @@
-/* Main Content */
+/* Main Content - Home */
 
 .main-content {
+    margin-top: 75px;
     .project-container-1 {
         .box-title {
             a {
@@ -13,7 +14,7 @@
             z-index: 10;
             a {
                 .project_image_overlay {
-                    max-width: 360px;
+                    
                 }
                 .project-caption {
                     top: 12%;
@@ -29,7 +30,7 @@
                 position: absolute;
                 top: -165px;
                 .project_image_overlay {
-                    max-width: 360px;
+                    
                 }
                 .project-caption {
                     top: 23%;

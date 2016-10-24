@@ -1,51 +1,7 @@
 /* Project's Hover */
 
-.box-title {
-    a {
-        position: absolute;
-        display: block;
-        height: 200px;
-        width: 200px;
-        color: #ff5c14;
-        font-size: 16px;
-        text-transform: capitalize;
-        border: 2px solid #ff5c14;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        -o-box-sizing: border-box;
-        box-sizing: border-box;
-        -webkit-transition: background-color .4s;
-        -moz-transition: background-color .4s;
-        -o-transition: background-color .4s;
-        transition: background-color .4s;
-        &:hover {
-            background: rgba(246, 246, 242, 0.85);
-            text-decoration: none;
-        }
-        .box-text-normal {
-            position: absolute;
-            bottom: 10px;
-            left: 20px;
-        }
-        .box-text-rotate {
-            position: absolute;
-            bottom: 120px;
-            left: -20px;
-            -webkit-transform: rotate(90deg);
-            -moz-transform: rotate(90deg);
-            -ms-transform: rotate(90deg);
-            -o-transform: rotate(90deg);
-        }
-    }
-}
-
-.project-1,
-.project-2,
-.project-3,
-.project-4,
-.project-5,
-.project-6 {
-    padding: 0;
+.project {
+    margin-bottom: 15px;
     &:hover {
         z-index: 100 !important;
     }
@@ -54,7 +10,7 @@
             opacity: 0.65;
         }
         img {
-            width: 100%;
+            /* width: 100%; */
         }
         .project_image_overlay {
             display: block;
@@ -76,20 +32,22 @@
         }
         .project-caption {
             position: absolute;
+            bottom: 0;
+            padding-left: 15px;
             -webkit-transform: translate3D(0px, 0px, 0px);
             -moz-transform: translate3D(0px, 0px, 0px);
             -o-transform: translate3D(0px, 0px, 0px);
             transform: translate3D(0px, 0px, 0px);
-            .project-caption-rotate {
+            .project-caption-normal {
                 padding-left: 20px;
                 color: #ffffff;
                 font-size: 14px;
                 background-image: url(../img/white-spot.png);
                 background-repeat: no-repeat;
-                -webkit-transform: rotate(90deg);
+                /* -webkit-transform: rotate(90deg);
                 -moz-transform: rotate(90deg);
                 -ms-transform: rotate(90deg);
-                -o-transform: rotate(90deg);
+                -o-transform: rotate(90deg); */
             }
         }
     }
