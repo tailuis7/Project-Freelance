@@ -1,0 +1,140 @@
+/* BASE - Base styles, variables, mixins, normalize */
+/* Font Colors */
+/* Background Colors */
+/* Website's Width */
+/* ==========================================================================
+   Normalize CSS
+   ========================================================================== */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+html,
+body {
+  /*     overflow-x: hidden; */
+}
+
+body {
+  font-size: 15px;
+  background: #fdfdfd;
+  font-family: "Open Sans", Tahoma, Arial, Sans-Serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #f6f6f2 url(../_img/page-bg-full-size.png) repeat 20px 40px;
+  background-image: url("../img/page-bg-full-size.png");
+  background-position: center top;
+}
+
+form {
+  margin: 0;
+}
+
+a {
+  color: #333;
+  cursor: pointer;
+}
+
+a,
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #0076a1;
+}
+
+input,
+input:focus {
+  outline: none;
+}
+
+#container .container {
+  max-width: 960px;
+  height: auto;
+}
+#container .container #remove-top-dots {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 2px;
+  background: #f6f6f2;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* MODULES - Individual site components */
+/* Main Content - Destination */
+.main-content {
+  margin-top: 75px;
+  margin-bottom: 45px;
+}
+.main-content .destination {
+  text-align: center;
+}
+.main-content .destination .destination-caption .destination-caption-normal {
+  margin-top: 10px;
+}
+.main-content .destination .destination-caption .destination-caption-normal:hover {
+  color: #ff5910;
+}
+
+/* Destination's Hover */
+.destination {
+  margin-bottom: 30px;
+}
+.destination:hover {
+  z-index: 100 !important;
+}
+.destination a:first-child {
+  display: block;
+  position: relative;
+}
+.destination a:first-child:hover .destination_image_overlay {
+  opacity: 0.65;
+}
+.destination a:first-child img {
+  width: 100%;
+}
+.destination a:first-child .destination_image_overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000000;
+  opacity: 0;
+  -webkit-transition: background-color .4s;
+  -moz-transition: background-color .4s;
+  -o-transition: background-color .4s;
+  transition: background-color .4s;
+  -webkit-transition: opacity .4s;
+  -moz-transition: opacity .4s;
+  -o-transition: opacity .4s;
+  transition: opacity .4s;
+}
+
+/* LAYOUTS - Page layout styles*/
+/* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+/* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+
+/*# sourceMappingURL=destination.css.map */

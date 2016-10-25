@@ -1,0 +1,17 @@
+/* Main Content - Destination */
+
+.main-content {
+    margin-top: 75px;
+    margin-bottom: 45px;
+    .destination {
+        text-align: center;
+        .destination-caption {
+            .destination-caption-normal {
+                margin-top: 10px;
+                &:hover {
+                    color: #ff5910;
+                }
+            }
+        }
+    }
+}
