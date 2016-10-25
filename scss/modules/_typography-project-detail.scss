@@ -1,0 +1,73 @@
+/* Destination Detail Typography */
+
+
+/* Title's Text*/
+
+.title-text {
+    margin-top: 0;
+    color: #333333;
+    line-height: 1.4;
+    span {
+        border-bottom: 1px solid #9b9b99;
+    }
+}
+
+
+/* Project's Hover */
+.project-container {
+    margin-top: 20px;
+}
+.project {
+    margin-bottom: 30px;
+    &:hover {
+        z-index: 100 !important;
+    }
+    a {
+        display: block;
+        position: relative;
+        &:hover .project_image_overlay {
+            opacity: 0.65;
+        }
+        img {
+            width: 100%;
+        }
+        .project_image_overlay {
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #000000;
+            opacity: 0;
+            -webkit-transition: background-color .4s;
+            -moz-transition: background-color .4s;
+            -o-transition: background-color .4s;
+            transition: background-color .4s;
+            -webkit-transition: opacity .4s;
+            -moz-transition: opacity .4s;
+            -o-transition: opacity .4s;
+            transition: opacity .4s;
+        }
+        .project-caption {
+            position: absolute;
+            bottom: 0;
+            padding-left: 15px;
+            -webkit-transform: translate3D(0px, 0px, 0px);
+            -moz-transform: translate3D(0px, 0px, 0px);
+            -o-transform: translate3D(0px, 0px, 0px);
+            transform: translate3D(0px, 0px, 0px);
+            .project-caption-normal {
+                padding-left: 20px;
+                color: #ffffff;
+                font-size: 14px;
+                background-image: url(../img/white-spot.png);
+                background-repeat: no-repeat;
+                /* -webkit-transform: rotate(90deg);
+                -moz-transform: rotate(90deg);
+                -ms-transform: rotate(90deg);
+                -o-transform: rotate(90deg); */
+            }
+        }
+    }
+}

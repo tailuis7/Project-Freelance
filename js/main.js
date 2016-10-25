@@ -33,4 +33,9 @@ $(document).ready(function() {
             $('#banner_backing').css({ "opacity": "0.9" });
         }
     });
+
+    /*lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+    })*/
 });
