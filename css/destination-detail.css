@@ -101,6 +101,7 @@ a {
 
 /* Project's Hover */
 .project {
+  margin-top: 20px;
   margin-bottom: 30px;
 }
 .project:hover {
