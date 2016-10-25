@@ -84,6 +84,10 @@ a {
 .project:hover {
   z-index: 100 !important;
 }
+.project a {
+  display: block;
+  position: relative;
+}
 .project a:hover .project_image_overlay {
   opacity: 0.65;
 }

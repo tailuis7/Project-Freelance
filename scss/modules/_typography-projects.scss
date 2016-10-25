@@ -6,6 +6,8 @@
         z-index: 100 !important;
     }
     a {
+        display: block;
+        position: relative;
         &:hover .project_image_overlay {
             opacity: 0.65;
         }

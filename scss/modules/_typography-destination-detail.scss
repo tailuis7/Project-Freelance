@@ -14,14 +14,17 @@
 
 
 /* Project's Hover */
-
-.project {
+.project-container {
     margin-top: 20px;
+}
+.project {
     margin-bottom: 30px;
     &:hover {
         z-index: 100 !important;
     }
     a {
+        display: block;
+        position: relative;
         &:hover .project_image_overlay {
             opacity: 0.65;
         }
