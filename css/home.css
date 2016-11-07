@@ -3,62 +3,62 @@
 /* Background Colors */
 /* Website's Width */
 /* ==========================================================================
-   Normalize CSS
-   ========================================================================== */
+	 Normalize CSS
+	 ========================================================================== */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
 html,
 body {
-  /*     overflow-x: hidden; */
+	/*     overflow-x: hidden; */
 }
 
 body {
-  font-size: 15px;
-  background: #fdfdfd;
-  font-family: "Open Sans", Tahoma, Arial, Sans-Serif;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background: #f6f6f2 url(../_img/page-bg-full-size.png) repeat 20px 40px;
-  background-image: url("../img/page-bg-full-size.png");
-  background-position: center top;
+	font-size: 15px;
+	background: #fdfdfd;
+	font-family: "Open Sans", Tahoma, Arial, Sans-Serif;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #f6f6f2 url(../_img/page-bg-full-size.png) repeat 20px 40px;
+	background-image: url("../img/page-bg-full-size.png");
+	background-position: center top;
 }
 
 form {
-  margin: 0;
+	margin: 0;
 }
 
 a {
-  color: #333;
-  cursor: pointer;
+	color: #333;
+	cursor: pointer;
 }
 
 a,
 a:focus {
-  outline: none;
-  text-decoration: none;
+	outline: none;
+	text-decoration: none;
 }
 
 a:hover {
-  text-decoration: none;
-  color: #0076a1;
+	text-decoration: none;
+	color: #0076a1;
 }
 
 input,
 input:focus {
-  outline: none;
+	outline: none;
 }
 
 #container .container {
-  max-width: 960px;
-  height: auto;
+	max-width: 960px;
+	height: auto;
 }
 #container .container #remove-top-dots {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  height: 2px;
-  background: #f6f6f2;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 2px;
+	background: #f6f6f2;
 }
 
 body,
@@ -68,266 +68,189 @@ h3,
 h4,
 p,
 a {
-  font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /* MODULES - Individual site components */
 /* Main Content - Home */
 .main-content {
-  margin-top: 75px;
-}
-.main-content .project-1 {
-  min-height: 400px;
-  z-index: 10;
-}
-.main-content .project-1 a .project-caption {
-  top: 12%;
-  right: 5px;
-}
-.wrap-project {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
-/*.main-content .project-container-2 .project-2 {
-  z-index: 30;
-}
-.main-content .project-container-2 .project-2 a {
-  position: absolute;
-  top: -165px;
-}
-.main-content .project-container-2 .project-2 a .project-caption {
-  top: 23%;
-  right: -65px;
-}
-.main-content .project-container-3 .box-title a {
-  z-index: 40;
-  left: 0;
-  top: 155px;
-}
-.main-content .project-container-3 .project-3 {
-  z-index: 25;
-}
-.main-content .project-container-3 .project-3 a {
-  position: absolute;
-  top: 120px;
-}
-.main-content .project-container-3 .project-3 a .project-caption {
-  top: 13%;
-  right: -35px;
-}
-.main-content .project-container-4 .project-4 {
-  z-index: 50;
-}
-.main-content .project-container-4 .project-4 a {
-  position: absolute;
-  top: 420px;
-  left: 0;
-}
-.main-content .project-container-4 .project-4 a .project-caption {
-  top: 42%;
-  right: -120px;
-}
-.main-content .project-container-4 .project-5 {
-  z-index: 23;
-}
-.main-content .project-container-4 .project-5 a {
-  position: absolute;
-  top: 420px;
-  left: 0;
-}
-.main-content .project-container-4 .project-5 a .project-caption {
-  top: 10%;
-  right: -35px;
-}
-.main-content .project-container-5 .project-6 {
-  z-index: 60;
-}
-.main-content .project-container-5 .project-6 a {
-  position: absolute;
-  top: 790px;
-  right: 200px;
-}
-.main-content .project-container-5 .project-6 a .project-caption {
-  top: 20%;
-  right: -55px;
-}
-.main-content .project-container-5 .box-title a {
-  z-index: 65;
-  right: 320px;
-  top: 810px;
-}
-.main-content .project-container-6 .box-title a {
-  z-index: 65;
-  right: 25px;
-  top: 1055px;
-}
-.main-content .project-container-6 .contact {
-  color: #a5a5a5;
-  position: absolute;
-  right: 25px;
-  top: 1180px;
-}
-*/
-/* Project's Hover */
-.box-title {
-  position: absolute;
-  display: block;
-  height: 200px;
-  width: 200px;
-  color: #ff5c14;
-  font-size: 16px;
-  text-transform: capitalize;
-  border: 2px solid #ff5c14;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: background-color .4s;
-  -moz-transition: background-color .4s;
-  -o-transition: background-color .4s;
-  transition: background-color .4s;
-  z-index: 20;
-  left: 0px;
-  bottom: 0px;
-/*  -webkit-transform: translate(-50%, -50%);
-     -moz-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);*/
-}
-.box-title:hover {
-  background: rgba(246, 246, 242, 0.85);
-  text-decoration: none;
-  color: #ff5c14;
-}
-.box-title .box-text-normal {
-  position: absolute;
-  bottom: 10px;
-  left: 20px;
-}
-.box-title .box-text-rotate {
-  position: absolute;
-  bottom: 120px;
-  left: -20px;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
+	margin-top: 75px;
 }
 
-.project-1,
-.project-2,
-.project-3,
-.project-4,
-.project-5,
-.project-6 {
-  padding: 0;
+.home .project {
+	position: relative;
 }
-.project-1:hover .wrap-project,
-.project-2:hover,
-.project-3:hover,
-.project-4:hover,
-.project-5:hover,
-.project-6:hover {
-  z-index: 100 !important;
+.home .project .show-project {
+	height: 100%;
+	position: absolute;
 }
-.project-1 a:hover .project_image_overlay,
-.project-2 a:hover .project_image_overlay,
-.project-3 a:hover .project_image_overlay,
-.project-4 a:hover .project_image_overlay,
-.project-5 a:hover .project_image_overlay,
-.project-6 a:hover .project_image_overlay {
-  opacity: 0.65;
+
+/* project-1 */
+.home .project-1 {
+	min-height: 400px;
 }
-.project-1 a img,
-.project-2 a img,
-.project-3 a img,
-.project-4 a img,
-.project-5 a img,
-.project-6 a img {
-  width: 100%;
+.home .project-1 .show-project {
+	width: 360px;
+	right: 0;
 }
-.project-1 a .project_image_overlay,
-.project-2 a .project_image_overlay,
-.project-3 a .project_image_overlay,
-.project-4 a .project_image_overlay,
-.project-5 a .project_image_overlay,
-.project-6 a .project_image_overlay {
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #000000;
-  opacity: 0;
-  -webkit-transition: background-color .4s;
-  -moz-transition: background-color .4s;
-  -o-transition: background-color .4s;
-  transition: background-color .4s;
-  -webkit-transition: opacity .4s;
-  -moz-transition: opacity .4s;
-  -o-transition: opacity .4s;
-  transition: opacity .4s;
+.home .project-1 .box-title {
+	-webkit-transform: translate(-50%, 50%);
+		 -moz-transform: translate(-50%, 50%);
+			-ms-transform: translate(-50%, 50%);
+					transform: translate(-50%, 50%);
 }
-.project-1 a .project-caption,
-.project-2 a .project-caption,
-.project-3 a .project-caption,
-.project-4 a .project-caption,
-.project-5 a .project-caption,
-.project-6 a .project-caption {
-  position: absolute;
-  -webkit-transform: translate3D(0px, 0px, 0px);
-  -moz-transform: translate3D(0px, 0px, 0px);
-  -o-transform: translate3D(0px, 0px, 0px);
-  transform: translate3D(0px, 0px, 0px);
+
+/* project-2 */
+.home .row > .project-2 {
+	margin-top: -160px;
 }
-.project-1 a .project-caption .project-caption-rotate,
-.project-2 a .project-caption .project-caption-rotate,
-.project-3 a .project-caption .project-caption-rotate,
-.project-4 a .project-caption .project-caption-rotate,
-.project-5 a .project-caption .project-caption-rotate,
-.project-6 a .project-caption .project-caption-rotate {
-  padding-left: 20px;
-  color: #ffffff;
-  font-size: 14px;
-  background-image: url(../img/white-spot.png);
-  background-repeat: no-repeat;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
+.home .project-2 {
+	min-height: 360px;
+}
+.home .project-2 .show-project {
+	width: 360px;
+	left: 70px;
+}
+.home .project-2 .box-title {
+	-webkit-transform: translate(-70px, 80%);
+		 -moz-transform: translate(-70px, 80%);
+			-ms-transform: translate(-70px, 80%);
+					transform: translate(-70px, 80%);
+}
+
+.home .wrap-project {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+/* Project's Hover */
+.home .box-title {
+	position: absolute;
+	display: block;
+	height: 200px;
+	width: 200px;
+	color: #ff5c14;
+	font-size: 16px;
+	text-transform: capitalize;
+	border: 2px solid #ff5c14;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: background-color .4s;
+	-moz-transition: background-color .4s;
+	-o-transition: background-color .4s;
+	transition: background-color .4s;
+	z-index: 20;
+	left: 0px;
+	bottom: 0px;
+}
+.home .box-title .box-text-normal {
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+}
+.home .box-title .box-text-rotate {
+	position: absolute;
+	bottom: 120px;
+	left: -20px;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+.home .box-title:hover {
+	background: rgba(246, 246, 242, 1);
+	text-decoration: none;
+	color: #ff5c14;
+	z-index: 100;
+}
+.home .wrap-project:hover {
+	z-index: 100;
+}
+.home .wrap-project:hover .project_image_overlay {
+	opacity: 0.65;
+}
+
+.home .wrap-project .project_image_overlay {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #000000;
+	opacity: 0;
+	-webkit-transition: background-color .4s;
+	-moz-transition: background-color .4s;
+	-o-transition: background-color .4s;
+	transition: background-color .4s;
+	-webkit-transition: opacity .4s;
+	-moz-transition: opacity .4s;
+	-o-transition: opacity .4s;
+	transition: opacity .4s;
+}
+.home .project-caption h3 {
+	padding-left: 20px;
+	padding-right: 15px;
+	margin-left: 15px;
+	margin: 0px;
+}
+.home .wrap-project .project-caption {
+	width: 100%;
+	height: 100%;
+	-webkit-transform: translate3D(0px, 0px, 0px);
+	-moz-transform: translate3D(0px, 0px, 0px);
+	-o-transform: translate3D(0px, 0px, 0px);
+	transform: translate3D(0px, 0px, 0px);
+}
+.home .wrap-project .project-caption .project-caption-rotate {
+	top: 20px;
+	left: 95%;
+	width: 100%;
+	height: 100%;	
+	position: absolute;
+	color: #ffffff;
+	font-size: 14px;
+	background-image: url(../img/white-spot.png);
+	background-repeat: no-repeat;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform-origin: 0 0;
 }
 
 /* ==========================================================================
-   Responsive CSS Landscape Tablet
-   ========================================================================== */
+	 Responsive CSS Landscape Tablet
+	 ========================================================================== */
 @media only screen and (min-width: 960px) and (max-width: 1240px) {
 
 }
 
 
 /* ==========================================================================
-   Responsive CSS Portrait Tablet
-   ========================================================================== */
+	 Responsive CSS Portrait Tablet
+	 ========================================================================== */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 
 }
 
 
 /* ==========================================================================
-   Responsive CSS Landscape Mobile
-   ========================================================================== */
+	 Responsive CSS Landscape Mobile
+	 ========================================================================== */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
 }
 
 
 /* ==========================================================================
-   Responsive CSS Portrait Mobile
-   ========================================================================== */
+	 Responsive CSS Portrait Mobile
+	 ========================================================================== */
 @media only screen and (min-width: 100px) and (max-width: 479px) {
 
 }
