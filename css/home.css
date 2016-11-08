@@ -110,12 +110,71 @@ a {
 .home .project-2 .show-project {
 	width: 360px;
 	left: 70px;
+	z-index: 30;
 }
 .home .project-2 .box-title {
 	-webkit-transform: translate(-70px, 80%);
 		 -moz-transform: translate(-70px, 80%);
 			-ms-transform: translate(-70px, 80%);
 					transform: translate(-70px, 80%);
+}
+.home .project-2 .box-title2 {
+	top: 0;
+	-webkit-transform: translate(50px, -80%);
+		 -moz-transform: translate(50px, -80%);
+			-ms-transform: translate(50px, -80%);
+					transform: translate(50px, -80%);
+}
+.home .project-2 .box-title2 .box-text-normal {
+	bottom: inherit;
+	top: 10px;
+}
+
+/* project-3 */
+.home .row > .project-3 {
+	margin-top: -55px;
+}
+.home .project-3 {
+	min-height: 400px;
+}
+.home .project-3 .show-project {
+	width: 600px;
+	right: 70px;
+	z-index: 25;
+}
+.home .project-3 .wrap-project .project-caption h3 {
+	width: 50%;
+}
+.home .project-3 .box-title {
+	left: inherit;
+	right: 0;
+	-webkit-transform: translate(70px, 50%);
+		 -moz-transform: translate(70px, 50%);
+			-ms-transform: translate(70px, 50%);
+					transform: translate(70px, 50%);
+}
+
+/* project-4 */
+.home .row > .project-4 {
+	margin-top: -105px;
+}
+.home .project-4 {
+	min-height: 320px;
+}
+.home .project-4 .show-project {
+	width: 520px;
+	left: 0px;
+	z-index: 25;
+}
+.home .project-4 .wrap-project .project-caption h3 {
+	width: 60%;
+}
+.home .project-4 .box-title {
+	left: 80%;
+	-webkit-transform: translate(0px, 20%);
+		 -moz-transform: translate(0px, 20%);
+			-ms-transform: translate(0px, 20%);
+					transform: translate(0px, 20%);
 }
 
 .home .wrap-project {
