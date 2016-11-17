@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'Graphik Regular';
+	src: url('../_fonts/graphik-regular.eot');
+	src: url('../_fonts/graphik-regular.eot?#iefix') format('embedded-opentype'),
+		 url('../_fonts/graphik-regular.woff') format('woff'),
+		 url('../_fonts/graphik-regular.ttf') format('truetype'),
+		 url('../_fonts/graphik-regular.svg#Graphik Web') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Graphik Light';
+	src: url('../_fonts/graphik-light.eot');
+	src: url('../_fonts/graphik-light?#iefix') format('embedded-opentype'),
+		 url('../_fonts/graphik-light.woff') format('woff'),
+		 url('../_fonts/graphik-light.ttf') format('truetype'),
+		 url('../_fonts/graphik-light.svg#Graphik Web') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+}
